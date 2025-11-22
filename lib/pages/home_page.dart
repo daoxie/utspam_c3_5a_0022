@@ -280,6 +280,7 @@ class _HomePageState extends State<HomePage> {
                     ),
                     child: Image.network(
                       car.imageUrl,
+                      height: 200,
                       width: double.infinity,
                       fit: BoxFit.cover,
                       errorBuilder: (context, error, stackTrace) {
@@ -337,7 +338,7 @@ class _HomePageState extends State<HomePage> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'Rp ${car.pricePerDay.toStringAsFixed(0)}',
+                          'Rp${car.pricePerDay.toStringAsFixed(0)}',
                           style: const TextStyle(
                             fontSize: 16,
                             fontWeight: FontWeight.bold,
