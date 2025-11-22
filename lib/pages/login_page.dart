@@ -77,23 +77,7 @@ class _LoginPageState extends State<LoginPage> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  const SizedBox(height: 60),
-                  Center(
-                    child: Container(
-                      width: 80,
-                      height: 80,
-                      decoration: BoxDecoration(
-                        color: const Color(0xFF045b4e),
-                        borderRadius: BorderRadius.circular(20),
-                      ),
-                      child: const Icon(
-                        Icons.directions_car,
-                        size: 48,
-                        color: Color(0xFFb1e007),
-                      ),
-                    ),
-                  ),
-                  const SizedBox(height: 40),
+                  const SizedBox(height: 170),
                   const Text(
                     'Welcome Back',
                     style: TextStyle(
@@ -101,11 +85,6 @@ class _LoginPageState extends State<LoginPage> {
                       fontWeight: FontWeight.bold,
                       color: Color(0xFF045b4e),
                     ),
-                  ),
-                  const SizedBox(height: 8),
-                  const Text(
-                    'Login to continue your journey',
-                    style: TextStyle(fontSize: 16, color: Colors.grey),
                   ),
                   const SizedBox(height: 48),
                   TextFormField(

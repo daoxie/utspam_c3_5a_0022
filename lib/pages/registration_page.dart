@@ -95,11 +95,6 @@ class _RegistrationPageState extends State<RegistrationPage> {
                       color: Color(0xFF045b4e),
                     ),
                   ),
-                  const SizedBox(height: 8),
-                  const Text(
-                    'Register to rent your dream car',
-                    style: TextStyle(fontSize: 16, color: Colors.grey),
-                  ),
                   const SizedBox(height: 40),
                   _buildTextField(
                     controller: _fullNameController,
