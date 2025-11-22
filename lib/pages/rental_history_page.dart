@@ -304,7 +304,7 @@ class _RentalHistoryPageState extends State<RentalHistoryPage> {
                         ),
                         const SizedBox(height: 4),
                         Text(
-                          'Rp ${rental.totalCost.toStringAsFixed(0)}',
+                          'Rp${rental.totalCost.toStringAsFixed(0)}',
                           style: const TextStyle(
                             fontSize: 14,
                             fontWeight: FontWeight.bold,

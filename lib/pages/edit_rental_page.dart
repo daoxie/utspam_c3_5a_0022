@@ -173,7 +173,7 @@ class _EditRentalPageState extends State<EditRentalPage> {
                       ),
                       const SizedBox(width: 12),
                       Text(
-                        'Rp ${widget.rental.car.pricePerDay.toStringAsFixed(0)} / day',
+                        'Rp${widget.rental.car.pricePerDay.toStringAsFixed(0)} / day',
                         style: const TextStyle(
                           fontSize: 16,
                           fontWeight: FontWeight.bold,
@@ -357,7 +357,7 @@ class _EditRentalPageState extends State<EditRentalPage> {
                               ),
                             ),
                             Text(
-                              'Rp ${(widget.rental.car.pricePerDay * int.parse(_rentalDaysController.text)).toStringAsFixed(0)}',
+                              'Rp${(widget.rental.car.pricePerDay * int.parse(_rentalDaysController.text)).toStringAsFixed(0)}',
                               style: const TextStyle(
                                 fontSize: 20,
                                 fontWeight: FontWeight.bold,

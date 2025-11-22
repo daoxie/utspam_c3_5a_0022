@@ -202,7 +202,7 @@ class _RentalDetailPageState extends State<RentalDetailPage> {
                   const SizedBox(height: 16),
                   _buildDetailRow(
                     'Price Per Day',
-                    'Rp ${_rental.car.pricePerDay.toStringAsFixed(0)}',
+                    'Rp${_rental.car.pricePerDay.toStringAsFixed(0)}',
                   ),
                   const SizedBox(height: 24),
                   Container(
@@ -224,7 +224,7 @@ class _RentalDetailPageState extends State<RentalDetailPage> {
                           ),
                         ),
                         Text(
-                          'Rp ${_rental.totalCost.toStringAsFixed(0)}',
+                          'Rp${_rental.totalCost.toStringAsFixed(0)}',
                           style: const TextStyle(
                             fontSize: 20,
                             fontWeight: FontWeight.bold,
