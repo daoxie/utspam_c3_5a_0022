@@ -90,7 +90,7 @@ class _HomePageState extends State<HomePage> {
                                   ),
                                 ),
                                 const Text(
-                                  'Find your perfect ride',
+                                  'Find your perfect car to rent',
                                   style: TextStyle(
                                     color: Colors.white70,
                                     fontSize: 14,
@@ -190,7 +190,6 @@ class _HomePageState extends State<HomePage> {
                         '${_cars.length} vehicles ready to rent',
                         style: TextStyle(fontSize: 14, color: Colors.grey[600]),
                       ),
-                      const SizedBox(height: 24),
                       GridView.builder(
                         shrinkWrap: true,
                         physics: const NeverScrollableScrollPhysics(),
